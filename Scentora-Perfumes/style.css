@@ -1,0 +1,25 @@
+.navbar{
+    border-bottom: 5px solid black;
+}
+
+.topbar{
+    background-color: lightgray;
+    height: 40px;
+}
+
+.footer{
+    background-color: lightgray;
+}
+
+.social-icons a{
+    color: black;
+}
+
+.card:hover{
+    background-color: rgb(246, 242, 242);
+    transition: 5s;
+    box-shadow: 1px 1px 1px 1px gray;
+}
+
+
+
