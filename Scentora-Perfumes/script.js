@@ -66,7 +66,73 @@ let productData = [
         des: "Peach, Gardenia",
         image: "https://saeedghani.pk/cdn/shop/files/HS_1024x1024.webp?v=1764273648",
         price: "1,490"
+    },
+
+    {
+        id: "9",
+        title: "Imagination",
+        des: "Bergamot, Citrus",
+        image: "https://saeedghani.pk/cdn/shop/files/imagination_1024x1024.webp?v=1759667224",
+        price: "1,352"
+    },
+
+
+    {
+        id: "10",
+        title: "Glory - Gift Edition",
+        des: "The Essence of Pure Radiance",
+        image: "https://saeedghani.pk/cdn/shop/files/glory_1024x1024.webp?v=1759665695",
+        price: "2,160"
+    },
+
+    {
+        id: "11",
+        title: "Obsession",
+        des: "Pineapple, Apple, Bergamot",
+        image: "https://saeedghani.pk/cdn/shop/files/OBSESSION_3f305e40-eb5e-4a70-9cca-e544c826947c_1024x1024.jpg?v=1756815315",
+        price: "1,512"
+    },
+
+    {
+        id: "12",
+        title: "Mir",
+        des: "Lavender, Birch",
+        image: "https://saeedghani.pk/cdn/shop/files/MIR100ml_1024x1024.webp?v=1759673223",
+        price: "3,592"
+    },
+
+    {
+        id: "13",
+        title: "You",
+        des: "Passionfruit, Grapefruit",
+        image: "https://saeedghani.pk/cdn/shop/files/You_70a04bf4-3a8a-4d1f-9587-fad366441fe4_1024x1024.jpg?v=1757922526",
+        price: "1,512"
+    },
+
+    {
+        id: "14",
+        title: "Mystery - Gift Edition",
+        des: "The Allure of Unspoken Elegance",
+        image: "https://saeedghani.pk/cdn/shop/files/Mystry_1024x1024.webp?v=1759665472",
+        price: "1,992"
+    },
+
+    {
+        id: "15",
+        title: "Luxury Attar Duo",
+        des: "Luxury Attar",
+        image: "https://saeedghani.pk/cdn/shop/files/deal21_1024x1024.webp?v=1759679976",
+        price: "2,835"
+    },
+
+    {
+        id: "16",
+        title: "Sultan",
+        des: "Cardamom and Amber",
+        image: "https://saeedghani.pk/cdn/shop/files/Sultan_1024x1024.webp?v=1759673367",
+        price: "3,192"
     }
+
 ]
 
 function showProducts() {
@@ -74,13 +140,13 @@ function showProducts() {
     productData.forEach(element => {
 
         rough += `
-        <div class="card m-3" style="width: 20rem;">
+        <div class="card m-3 border" style="width: 20rem;">
            <img src=${element.image} class="card-img-top" alt="...">
                 <div class="card-body">
                    <h5 class="card-title">${element.title}</h5>
                    <p class="card-text">${element.des}</p>
                    <h5 class="card-title">Rs.<span>${element.price}</span></h5>
-                   <a href="#" class="btn btn-dark"><i class="fa-solid fa-cart-shopping"></i>&nbsp;&nbsp;Add To Cart</a>
+                   <a href="#" class="btn btn-dark custom-hover"><i class="fa-solid fa-cart-shopping"></i>&nbsp;&nbsp;Add To Cart</a>
                  </div>
         </div>
 `
