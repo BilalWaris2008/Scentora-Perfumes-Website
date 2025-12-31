@@ -141,13 +141,13 @@ function showProducts() {
 
         rough += `
         <div class="card m-3 border" style="width: 20rem;">
-           <img src=${element.image} class="card-img-top" alt="...">
+            <img src=${element.image} class="card-img-top" alt="...">
                 <div class="card-body">
                    <h5 class="card-title">${element.title}</h5>
                    <p class="card-text">${element.des}</p>
-                   <h5 class="card-title">Rs.<span>${element.price}</span></h5>
+                   <h5 class="card-title text-center">Rs.<span>${element.price}</span> </h5> 
                    <a href="#" class="btn btn-dark custom-hover"><i class="fa-solid fa-cart-shopping"></i>&nbsp;&nbsp;Add To Cart</a>
-                 </div>
+                </div>
         </div>
 `
         document.getElementById("show-all-product").innerHTML = rough
