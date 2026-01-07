@@ -1,6 +1,4 @@
 
-
-
 let rough = ""
 
 let productData = [
