@@ -40,3 +40,12 @@ li a {
     color: rgb(0, 0, 0);
     font-weight: 400;
 }
+
+li a:hover{
+    color: blue;
+    transition: 0.2s;
+}
+
+.footer-heading{
+    color:  rgba(0, 0, 0, 0.836);
+}
