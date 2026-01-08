@@ -80,3 +80,13 @@ footer {
     color:rgb(203, 32, 32);
     transition: 0.3s;
 }
+
+.cards-heading::after{
+    content: '';
+    width: 190px;
+    height: 4px;
+    background: red;
+    display: block;
+    margin: 10px auto 0;
+    border-radius: 10px;
+}
