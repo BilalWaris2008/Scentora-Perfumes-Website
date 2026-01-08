@@ -35,17 +35,48 @@ footer {
     background-color: rgba(211, 211, 211, 0.363);
 }
 
-li a {
+.footer-items {
     font-size: 1.3rem;
     color: rgb(0, 0, 0);
     font-weight: 400;
 }
 
-li a:hover{
+.footer-items:hover {
     color: blue;
     transition: 0.2s;
 }
 
 .footer-heading{
     color:  rgba(0, 0, 0, 0.836);
+}
+
+.footer-icon-one{
+    color: white;
+}
+.footer-icon-two{
+    color: white;
+}
+.footer-icon-three{
+    color: white;
+}
+.footer-icon-four{
+    color: white;
+}
+
+.footer-icon-one:hover{
+    color: rgb(17, 48, 202);
+    transition: 0.3s;
+}
+
+.footer-icon-two:hover{
+    color:rgb(168, 28, 161);
+    transition: 0.3s;
+}
+.footer-icon-three:hover{
+    color:rgb(104, 150, 35);
+    transition: 0.3s;
+}
+.footer-icon-four:hover{
+    color:rgb(203, 32, 32);
+    transition: 0.3s;
 }
