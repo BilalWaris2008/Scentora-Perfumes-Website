@@ -90,3 +90,16 @@ footer {
     margin: 10px auto 0;
     border-radius: 10px;
 }
+.men-cards-heading{
+    font-size: 40px;
+}
+
+.men-cards-heading::after{
+    content: '';
+    width: 90px;
+    height: 4px;
+    background: red;
+    display: block;
+    margin: 10px auto 0;
+    border-radius: 10px;
+}
