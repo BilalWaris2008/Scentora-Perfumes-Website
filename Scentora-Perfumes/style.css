@@ -103,3 +103,14 @@ footer {
     margin: 10px auto 0;
     border-radius: 10px;
 }
+
+.home-link:hover::after{
+    content: '';
+    margin: auto;
+    height: 1px;
+    width: 45px;
+    background: red;
+    display: block;
+    transition: 1s;
+    border-radius: 10px;
+}
